@@ -1,0 +1,19 @@
+package com.aff.ra.testCases;
+
+import org.testng.annotations.Test;
+
+import com.aff.main.TestBase;
+import com.aff.ra.pageObjects.RentAdvancepageObjects;
+
+public class RentAdvancePageTest extends TestBase{
+RentAdvancepageObjects rentadvance = new RentAdvancepageObjects();
+	
+	@Test
+	public void RentAdvancePages() {
+	rentadvance.AbouPageContents(returnDriver());
+	rentadvance.HomePageContents(returnDriver());
+	rentadvance.PropertyManagersPageContents(returnDriver());
+	}
+	
+	
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LoginPage]">
+  <listeners>
+    <listener class-name="com.aff.utilities.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.aff.dp.testCases.LoginPageTest">
+        <methods>
+          <include name="A"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.aff.dp.testCases.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [LoginPage] -->
